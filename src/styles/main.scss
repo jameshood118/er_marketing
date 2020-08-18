@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+// Customization
+@import "./variables.scss";
+//Bulma
+@import "~bulma/bulma";
+@import "~buefy/dist/buefy.min.css";
+// bulma extensions import
+@import "~bulma-extensions/bulma-accordion/dist/css/bulma-accordion.sass";
+@import "~bulma-extensions/bulma-badge/dist/css/bulma-badge.sass";
+@import "~bulma-extensions/bulma-calendar/dist/css/bulma-calendar.sass";
+@import "~bulma-extensions/bulma-carousel/dist/css/bulma-carousel.sass";
+@import "~bulma-extensions/bulma-checkradio/dist/css/bulma-checkradio.sass";
+@import "~bulma-extensions/bulma-divider/dist/css/bulma-divider.sass";
+@import "~bulma-extensions/bulma-iconpicker/dist/css/bulma-iconpicker.sass";
+@import "~bulma-extensions/bulma-pageloader/dist/css/bulma-pageloader.sass";
+@import "~bulma-extensions/bulma-pricingtable/dist/css/bulma-pricingtable.sass";
+@import "~bulma-extensions/bulma-quickview/dist/css/bulma-quickview.sass";
+@import "~bulma-extensions/bulma-ribbon/dist/css/bulma-ribbon.sass";
+@import "~bulma-extensions/bulma-slider/dist/css/bulma-slider.sass";
+@import "~bulma-extensions/bulma-steps/dist/css/bulma-steps.sass";
+@import "~bulma-extensions/bulma-switch/dist/css/bulma-switch.sass";
+@import "~bulma-extensions/bulma-tagsinput/dist/css/bulma-tagsinput.sass";
+@import "~bulma-extensions/bulma-timeline/dist/css/bulma-timeline.sass";
+
+
+.valign {
+    align-items: center;
+  }
+  .title-wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .pb-40 {
+    padding-bottom: 40px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  .huge-pb {
+    padding-bottom: 100px;
+  }
+  .breadMenu {
+    & li a {color:black}
+    & li a.is-active {
+      color: blue;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    & li + li::before {
+      content: "|";
+    }
+  }
+  .is-social a {
+    color: black;
+    &:hover {
+      color: #3273dc;
+    }
+  }
+  
+  .icon {
+    vertical-align: middle;
+    svg {
+      width: inherit;
+      height: inherit;
+    }
+  }
+
+  .videoOver {
+    & div {
+      z-index: 2;
+      opacity: .8;
+      vertical-align: middle;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 75px;
+      &:hover {
+        opacity: 1
+      }
+    }
+}
+
+//Nav bar Fixes
+
+.burger {
+  $burgerSize: 28px;
+  height: auto;
+  &.is-large {
+    width: $burgerSize * 2;
+    span {
+      margin: auto;
+      left: 8%;
+      right: 8%;
+      width: 2rem;
+      height: 2px;
+      &:nth-child(1) {
+        top: calc(50% - (1rem / 2));
+      }
+      &:nth-child(2) {
+        top: 50%;
+      }
+      &:nth-child(3) {
+        top: calc(50% + (1rem / 2));
+      }
+    }
+  }
+  &.is-active {
+    span {
+      &:nth-child(3) {
+        top: calc(50% + (1rem / 8));
+      }
+    }
+  }
+}
+
+//Stepper, make active more noticeable
+.steps .step-item.is-active::before {
+  background:$white
+}
+.steps .step-item.is-active.is-completed .step-marker {
+  background-color:#fff;
+  border-style: solid!important;
+}
+.steps .step-item.is-active .step-marker{
+  background-color:#fff;
+  border-color: $green;
+  border-style: solid !important;
+}
+
+.footer {
+  margin-top: -1.50rem;
+}
+
+@media screen and (max-width: 1087px) {
+    .navbar-menu {
+      box-shadow:none;
+      overflow:initial!important;
+    }
+  }
+
+@media screen and (max-width: $desktop) {
+  .navbar.is-fixed-top .navbar-menu,
+  .navbar.is-fixed-top-touch .navbar-menu,
+  .navbar .navbar-menu {
+    overflow: initial;
+    padding: 0;
+    box-shadow: none;
+    overflow-y: auto;
+    background-color: white;
+  }
+  .navbar-item {
+    &.has-dropdown {
+      & .navbar-link::after {
+        display:block
+      }
+      .navbar-dropdown {
+        display: none;
+      }
+      &.is-active {
+        .navbar-dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+  .navbar-burger {
+    height: initial;
+  }
+}
+  //IE 11 Fixes, do not remove
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .hero.is-fullheight, .hero .hero-body, section.is-resourceHeader .hero-body {min-height:auto;}
+  .hero.is-fullheight .splash, .hero-body, .hero.map .hero-body {min-height:100vh}
+  .hero .container, 
+  .hero .container.is-fluid, 
+  .hero.map .container.is-fluid,  { display:-ms-flexbox;-ms-flex-pack:center;-ms-flex-align:center;}
+  .steps-action {display:-ms-flexbox;-ms-flex-pack:center;-ms-flex-align:center;}
+  .wide-modal {padding:25px;overflow:hidden}
+  }

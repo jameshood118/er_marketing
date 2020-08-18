@@ -1,0 +1,8 @@
+node_modules/
+templates/
+dist/
+*.gql
+*.ts
+
+//TODO Temporarily ignore until updated to not use typescript
+src/components/contact.vue

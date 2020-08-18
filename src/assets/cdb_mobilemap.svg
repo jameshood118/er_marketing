@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 98.556 175.008">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc107;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #2196f3;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-6 {
+        fill: #dbdbdb;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-9 {
+        fill: #ff5252;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="72.024" height="135.524" transform="translate(0 0)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" y2="0.01" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.122"/>
+      <stop offset="0.55" stop-opacity="0.09"/>
+      <stop offset="1" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" y2="0" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="undraw_mail1_uab6" transform="translate(-96.26 -53.35)">
+    <rect id="Rectangle_3598" data-name="Rectangle 3598" class="cls-2" width="98.555" height="175.008" rx="10" transform="translate(96.26 53.35)"/>
+    <rect id="Rectangle_3599" data-name="Rectangle 3599" class="cls-3" width="93.031" height="166.535" rx="10" transform="translate(98.791 56.203)"/>
+    <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" class="cls-1" width="72.024" height="135.524" transform="translate(109.294 67.976)"/>
+    <g id="Group_1114" data-name="Group 1114" class="cls-4" transform="translate(109.297 67.978)">
+      <line id="Line_168" data-name="Line 168" class="cls-5" y1="69.437" x2="143.851" transform="translate(-28.717 13.642)"/>
+      <line id="Line_169" data-name="Line 169" class="cls-5" x2="50.358" y2="66.579" transform="translate(9.859 -26.428)"/>
+      <line id="Line_170" data-name="Line 170" class="cls-5" x2="52.073" y2="61.921" transform="translate(-31.704 -2.536)"/>
+      <line id="Line_171" data-name="Line 171" class="cls-5" x2="81.539" y2="110.082" transform="translate(5.472 66.577)"/>
+      <line id="Line_172" data-name="Line 172" class="cls-5" y1="56.338" x2="67.989" transform="translate(-34.691 104.142)"/>
+      <line id="Line_173" data-name="Line 173" class="cls-5" x1="51.115" y2="48.55" transform="translate(46.1 72.876)"/>
+    </g>
+    <circle id="Ellipse_3199" data-name="Ellipse 3199" class="cls-6" cx="5.743" cy="5.743" r="5.743" transform="translate(139.564 207.521)"/>
+    <circle id="Ellipse_3200" data-name="Ellipse 3200" class="cls-6" cx="1.149" cy="1.149" r="1.149" transform="translate(133.247 60.51)"/>
+    <rect id="Rectangle_3600" data-name="Rectangle 3600" class="cls-6" width="17.802" height="1.723" rx="0.861" transform="translate(139.564 60.798)"/>
+    <path id="Path_2345" data-name="Path 2345" class="cls-7" d="M375.823,322.669c0,8.772-15.89,33.622-15.89,33.622s-15.89-24.839-15.89-33.622a15.89,15.89,0,1,1,31.764,0Z" transform="translate(-214.605 -198.518)"/>
+    <circle id="Ellipse_3201" data-name="Ellipse 3201" class="cls-8" cx="4.802" cy="4.802" r="4.802" transform="translate(140.533 118.241)"/>
+    <path id="Path_2346" data-name="Path 2346" class="cls-9" d="M384.106,344.628c0,6.835-12.378,26.193-12.378,26.193s-12.378-19.365-12.378-26.193a12.378,12.378,0,1,1,24.755,0Z" transform="translate(-226.393 -218.513)"/>
+    <circle id="Ellipse_3202" data-name="Ellipse 3202" class="cls-3" cx="3.742" cy="3.742" r="3.742" transform="translate(141.593 121.502)"/>
+  </g>
+</svg>
